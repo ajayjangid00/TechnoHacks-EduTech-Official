@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    background-color: #D2D2D2;
+    border-radius: 10px;
+    padding: 1vw 2vw 2vw 2vw;
+    width: 40vw;
+    box-shadow: 1px 2px 5px 2px grey;
+}
+
+input {
+    margin-top: 4vw;
+    border-radius: 6px;
+    border: none;
+    width: 100%;
+    height: 5vw;
+    margin-bottom: 2vw;
+    font-size: 35px;
+    padding: 20px;
+    outline: none;
+    box-shadow: 1px 2px 5px 2px grey;
+    font-family: 'Bakbak One'
+}
+
+.buttons {
+    /* background-color: red; */
+}
+
+.rows1 button, .rows2 button, .rows3 button, .rows4 button {
+    padding: .7vw 3vw;
+    margin-inline: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 1px 2px 2px 1px gray;
+    cursor: pointer;
+}
+
+#equalbtn {
+    background-color: orange;
+    color: white;
+}
